@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  object-detection-service-low-code:
+  - apiVersion: v1
+    created: "2024-09-10T15:30:13.010907942-07:00"
+    description: DLStreamer based object detection pipeline
+    digest: 5fbda9d59888189bd9aaaec8d6c740f3e05d7d131c41b71c8c5cb24df968a1fa
+    keywords:
+    - dlstreamer
+    - object-detection
+    name: object-detection-service-low-code
+    urls:
+    - object-detection-service-low-code-3.1.0.tgz
+    version: 3.1.0
+  - apiVersion: v1
+    created: "2024-09-10T15:30:13.011266709-07:00"
+    description: DLStreamer based object detection pipeline
+    digest: 78cad372f1dca2d2d9fed927cb2242c3fd127bd5d57dbc3f39d9670df9f104a6
+    keywords:
+    - dlstreamer
+    - object-detection
+    name: object-detection-service-low-code
+    urls:
+    - .deploy/object-detection-service-low-code-3.1.0.tgz
+    version: 3.1.0
+generated: "2024-09-10T15:30:12.747371861-07:00"
