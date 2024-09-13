@@ -1,0 +1,11 @@
+# Default values for scenescape-chart.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+# Image repository
+repository: localhost:5001
+imagePullSecrets: {}
+
+# disable pre-install and post-install hooks for cluster compatibility
+hooks:
+  enabled: true

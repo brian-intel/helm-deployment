@@ -1,0 +1,19 @@
+---
+repository: registry.test-public-maestro.edgeorch.net/object-detection-service-low-code
+imagePullSecrets:
+  - name: '%MaestroGeneratedDockerCredential%'
+media:
+  storageClassName: openebs-lvmpv-shared
+video:
+  storageClassName: openebs-lvmpv-shared
+service:
+  annotations:
+    service-proxy.app.orchestrator.io/ports: "80"
+    external-dns.alpha.kubernetes.io/hostname: "object-detection-service-low-code.example.org"
+ingress:
+  enabled: false
+loadBalancer:
+  enabled: true
+#  loadBalancerIP: 10.0.0.10
+hooks:
+  enabled: false
